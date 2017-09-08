@@ -1,4 +1,4 @@
-# DAT Course Project
+# Data Science Course Project
 
 ## Overview
 
