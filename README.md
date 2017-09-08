@@ -1,6 +1,6 @@
 ## ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  General Assembly Data Science
-### Data Science course DS-SEA-06 Repository
-<br><b>Dates: </b>March 20 - May 24
+### Data Science course DS-SEA-07 Repository
+<br><b>Dates: </b> Sep 11 - Nov 20
 <br><b>Class times:</b> Mon and Wed 6:30pm - 9:30pm</b>
 <br><b>Location:</b> Seattle, WA
 
@@ -11,25 +11,24 @@
 ### Calendar
 Monday | Wednesday
 --- | ---
-**Research Design and Exploratory data analysis**|
-3/20: [L01 Introduction to Data Science](#class-1) | 3/22: [L02 Research design and Pandas](#research-design)
-3/27: [L03 Statistics fundamentals](#stat_fund) | 3/29: [L04 Command Line and Version Control](#command-line)
-4/3: [L05 Fetching Data](#fetching-data), **Project Discussion Deadline** |  
- | 
-**Foundations of data modeling**| 
-   | | 4/5: [L06 Intro to Classification - K nearest neighbor](#knn), **Project Question and Dataset Due**
-4/10: [L07 Intro to Regression](#intro-to-regression) | 4/13: [L08 Evaluating Model Fit](#evaluating-fit)
-4/17: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/19: [L10 Advanced model evaluation](#advanced-model)
-4/24: [L11 Standardization and Clustering](#clustering) | 4/26: L12 **First Project Presentations** + bonus topics | 
- | 
-**Data science in the real world**|
-5/1: [L13 Natural Language Processing](#nlp1) | 5/3: [L14 Dimensionality reduction](#reduction), **Draft Paper Due**
-5/8 [L15 Decision Trees](#decision) | 5/10: [L16 Ensembling, Bagging and Random Forests](#ensemble)
-5/15: [L17 Modeling with Time Series Data I](#time1), **Peer Review Due**| 5/17 [L18 Modeling with Time Series Data II](#time2)
-5/22 [L19 Where to go next + bonus topics](#19_topics) | 5/24: **Final Project Presentations** | 
- | 
- | 
- | 
+**Research Design and Exploratory data analysis** |
+9/11: [L01 Introduction to Data Science](#class-1) | 9/13: [L02 Research design and Pandas](#research-design)
+9/18: [L03 Statistics fundamentals](#stat_fund) | 9/20: [L04 Command Line and Version Control](#command-line)
+9/25: [L05 Fetching Data](#fetching-data), *Project Discussion Deadline* |   
+**Foundations of data modeling** | 
+ .  | 9/27: [L06 Intro to Classification - K nearest neighbor](#knn), *Project Question and Dataset Due*
+10/2: [L07 Intro to Regression](#intro-to-regression) | 10/4: [L08 Evaluating Model Fit](#evaluating-fit)
+10/9: Holiday, No Class | 10/11: [L09 Classifying with Logistic Regression](#logistic-regression)
+10/16: [L10 Advanced model evaluation](#advanced-model) | 10/18: [L11 Standardization and Clustering](#clustering)
+10/23: L12 *First Project Presentations* + bonus topics | 
+**Data science in the real world** | 
+   .  |  10/25: [L13 Natural Language Processing](#nlp1) |
+10/30: [L14 Dimensionality reduction](#reduction), *Draft Paper Due* | 11/1 [L15 Decision Trees](#decision)
+11/6: [L16 Ensembling, Bagging and Random Forests](#ensemble) | 11/8: [L17 Modeling with Time Series Data I](#time1), *Peer Review Due*
+11/13 [L18 Modeling with Time Series Data II](#time2) | 11/15 [L19 Where to go next + bonus topics](#19_topics)
+11/20: *Final Project Presentations* | 
+  . |  | 
+  . |  |
 **Bonus Content** | 
 Bonus content: [SVC - Support Vector Classifier](#svc) | 
 Bonus content: [Naive Bayes Classifier](#bayes)| 
@@ -92,10 +91,10 @@ Before this lesson you should already be able to:
 <!--		* Our very own Kevin McAlear's [Hater News DAT project](http://haternews.co/?network=twitter) on the GA gallery
 -->
 **Homework:**
-* Due Mar 22
+* Due Sep 13
 	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
 		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
-* Due Mar 27
+* Due Sep 18
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 29 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck. ##Dont
 	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Brandon 
 	* Here are some additional resources:
@@ -140,7 +139,7 @@ Before this lesson, you should already be able to:
 		* Independent Practice ([notebook](notebooks/02_starter_code.ipynb))
  
 **Homework:**
-* Due Mar 27
+* Due Sep 18
 	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Bronson Shonk
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 27 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
@@ -195,7 +194,7 @@ Name | Description
 	* [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py) -->
 	
 **Homework:**
-* Due 3/29
+* Due Sep 20
 	* *Windows users*, install [Git Bash](http://git-scm.com/download/win) prior to starting the command line pre-class exercise*** as you will need the "bash" type command window on your Windows laptop in order to do the exercise and later to use git
 		* We recommend Git Bash instead of Git Shell (which uses Powershell).
 		* For Mac users, you will probably be using Terminal, or another command line application of your choice.  It already is a bash type command line interpreter.  No need to load anything.  Git is part of the MAC OS so is already installed and ready to use.
@@ -239,8 +238,9 @@ Name | Description
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md)
 
 **Homework:**
-* Due 4/5 Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
-* **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
+* Due Sep 27
+	* Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
+* Optional: Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
 
 **Git and Markdown Resources:**
 * [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
@@ -277,7 +277,7 @@ Name | Description
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
 
 **Homework:**
-* Due 4/5 
+* Due Sep 27 
 	* Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
 	* If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.) If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. 
 	* **Optional:** Complete the homework exercise listed in the [web scraping code](code/05_web_scraping.py). It will take the place of any one homework you miss, past or future! This optional homework is due on April 10.
@@ -315,7 +315,7 @@ Name | Description
 * Bonus content not covered in this lesson: Machine learning types and terms [(slides)](slides/06_machine_learning.pdf) 
 
 **Homework:**
-* Due 4/12: Complete this [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv)
+* Due 10/4: Complete this [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv)
 
 **KNN Resources:**
 * [(notebook)](notebooks/07_human_learning_iris.ipynb) An example of the steps one would go through using "human learning" to come up with a rule to classify new iris observations based on the Iris data set.  Contains a refresher on many Pandas techniques such as groupby and visualization.
@@ -349,9 +349,10 @@ Name | Description
 <!--* An additional feature engineering example is available here: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb) -->
 
 **Homework:**
-* The [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) is due 4/12
-* Reading assignment on the [bias-variance tradeoff](homework/08_bias_variance.md)
-* Read Kevin Markhams's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
+* Due Oct 4
+	* [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) 
+	* Reading assignment on the [bias-variance tradeoff](homework/08_bias_variance.md)
+		* Read Kevin Markhams's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 * Optional: Quick Pandas exercise ([notebook](notebooks/08_pandas_review.ipynb)).  Complete this exercise to sharpen your understanding of dataframes.
 * Work on your project... your first project presentation is in less than three weeks!
 
@@ -422,10 +423,11 @@ Name | Description
 * Confusion matrix ([slides](slides/09_confusion_matrix.pdf), [notebook](notebooks/09_confusion_matrix.ipynb))
 
 **Homework:**
-* Work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an example of changing a threshhold to get the desired behavior in the confusion matrix.
-* If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
-* Video/reading assignment on [ROC curves and AUC](homework/10_roc_auc.md)
-* Video/reading assignment on [cross-validation](homework/10_cross_validation.md)
+* Complete by Oct 15
+	* Work through the code samples in the "Confusion matrix of Titanic predictions" section in [the 09_confusion_matrix.ipynb notebook](notebooks/09_confusion_matrix.ipynb) to see an example of changing a threshhold to get the desired behavior in the confusion matrix.
+	* If you aren't yet comfortable with all of the confusion matrix terminology, watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
+	* Video/reading assignment on [ROC curves and AUC](homework/10_roc_auc.md)
+	* Video/reading assignment on [cross-validation](homework/10_cross_validation.md)
 
 **Logistic Regression Resources:**
 * To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
@@ -464,7 +466,7 @@ Name | Description
 * Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
 
 **Homework:**
-* **Finalize your First Project Presentations!**  Your first project presentation is next Thursday Oct 27.
+* **Finalize your First Project Presentations!**  Your first project presentation is next Monday Oct 23.
 	* [Requirements for the presentations](/project/README.md)
 
 **ROC Resources:**
@@ -548,7 +550,7 @@ Name | Description
 * NLP Exercise [(notebook)](notebooks/13_NLP_rotten_tomatoes_exercise.ipynb)
 
 **Homework:**
-* **Your draft paper is due on Thursday (2/1)!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
+* **Your draft paper is due on Thursday Oct 30!** Please submit a link to your project repository (with paper, code, data, and visualizations) before class
 
 **NLP Resources:**
 * If you want to learn a lot more NLP, check out the excellent [video lectures](https://class.coursera.org/nlp/lecture) and [slides](http://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) from this [Coursera course](https://www.coursera.org/course/nlp) (which is no longer being offered).
@@ -609,7 +611,8 @@ Name | Description
 * Exercise with Capital Bikeshare data ([notebook](notebooks/15_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
 
 **Homework:**
-* Read the "Wisdom of the crowds" section from MLWave's post on [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
+* Complete by Nov 6
+	* Read the "Wisdom of the crowds" section from MLWave's post on [Human Ensemble Learning](http://mlwave.com/human-ensemble-learning/).
 * **Optional:** Read the abstract from [Do We Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf), as well as Kaggle CTO Ben Hamner's [comment](https://news.ycombinator.com/item?id=8719723) about the paper, paying attention to the mentions of "Random Forests".
 
 **Resources:**
