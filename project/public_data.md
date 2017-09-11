@@ -1,8 +1,5 @@
 ## Public Data Sources
 
-* Seattle Pronto Cycle Share data, Released Oct 2015:
-     * [Pronto Cycle Data Challenge data](https://www.prontocycleshare.com/datachallenge)
-
 * Open data catalogs from various governments and NGOs:
      * [NYC Open Data](https://nycopendata.socrata.com/)
      * [DC Open Data Catalog](http://data.dc.gov/) / [OpenDataDC](http://www.opendatadc.org/)
