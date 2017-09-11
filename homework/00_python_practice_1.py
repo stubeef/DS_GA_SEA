@@ -61,23 +61,15 @@ def calc(x, y, op):         # three parameters (without any defaults)
 calc(5, 3, 'add')
 calc(5, 3, 'subtract')
 calc(5, 3, 'multiply')
+calc(5, 3)
+
+
 
 # EXERCISE: Write a function that takes two parameters (hours and rate), and
 # returns the total pay.
 
-def calc_total_pay(hours,rate):
-    if isinstance(hours,(int, long, float)) and isinstance(rate,(int, long, float)):
-        return hours*rate
-    else:
-        return "Please pass numbers only!"
 
-print calc_total_pay('a',50)
-print calc_total_pay(8,50)
-print calc_total_pay(8.8,50.7)
 
-# Use a FOR LOOP to print each list element of this list in uppercase
+# EXERCISE: For loop
+# print each list element in uppercase
 fruits = ['apple', 'banana', 'cherry']
-
-for f in fruits:
-    print f.upper()
-

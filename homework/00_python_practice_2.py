@@ -1,5 +1,5 @@
 '''
-Python Intermediate Workshop
+Python practice 2
 '''
 
 '''
@@ -60,33 +60,23 @@ len(a)      # returns 5 (number of characters)
 '''
 EXERCISE:
 1. Create a list of the first names of your family members.
+
 2. Print the name of the last person in the list.
+
 3. Print the length of the name of the first person in the list.
+
 4. Change one of the names from their real name to their nickname.
+
 5. Append a new person to the list.
+
 6. Change the name of the new person to lowercase using the string method 'lower'.
+
 7. Sort the list in reverse alphabetical order.
+
 Bonus: Sort the list by the length of the names (shortest to longest).
+
 '''
 
-''' SOLUTIONS '''
-fnames = ["Rushabh","Amee","Riaan","Aayansh"] #1. Create a list of the first names of your family members.
-
-print fnames[-1] #2. Print the name of the last person in the list.
-
-print len(fnames[0]) #3. Print the length of the name of the first person in the list.
-
-fnames[2] = "Ri" #4. Change one of the names from their real name to their nickname.
-
-fnames.append("Pluto")  #5. Append a new person to the list.
-
-fnames[4] = fnames[4].lower() #6. Change the name of the new person to lowercase using the string method 'lower'.
-
-fnames.sort(reverse = True) #7. Sort the list in reverse alphabetical order.
-print fnames
-
-fnames.sort(key=len) #Bonus: Sort the list by the length of the names (shortest to longest).
-print fnames
 
 '''
 FOR LOOPS AND LIST COMPREHENSIONS
@@ -94,8 +84,8 @@ FOR LOOPS AND LIST COMPREHENSIONS
 
 # for loop to print 1 through 5
 nums = range(1, 6)      # create a list of 1 through 5
-for val in nums:        # num 'becomes' each list element for one loop
-    print val
+for num in nums:        # num 'becomes' each list element for one loop
+    print num
 
 # for loop to print 1, 3, 5
 other = [1, 3, 5]       # create a different list
@@ -103,11 +93,9 @@ for x in other:         # name 'x' does not matter, not defined in advance
     print x             # this loop only executes 3 times (not 5)
 
 # for loop to create a list of 2, 4, 6, 8, 10
-nums = range(1, 6)
 doubled = []                # create empty list to store results
 for num in nums:            # loop through nums (will execute 5 times)
     doubled.append(num*2)   # append the double of the current value of num
-
 
 # equivalent list comprehension
 doubled = [num*2 for num in nums]   # expression (num*2) goes first, brackets
@@ -118,25 +106,19 @@ doubled = [num*2 for num in nums]   # expression (num*2) goes first, brackets
 EXERCISE 1:
 Given that: letters = ['a', 'b', 'c']
 Write a list comprehension that returns: ['A', 'B', 'C']
-'''
-letters = ['a', 'b', 'c']
-print [x.upper() for x in letters]
 
-'''
+
 EXERCISE 2 (BONUS):
 Given that: word = 'abc'
 Write a list comprehension that returns: ['A', 'B', 'C']
-'''
-word = 'abc'
-print [x.upper() for x in word]
 
-'''
+
 EXERCISE 3 (BONUS):
 Given that: fruits = ['Apple', 'Banana', 'Cherry']
 Write a list comprehension that returns: ['A', 'B', 'C']
+
+
 '''
-fruits = ['Apple', 'Banana', 'Cherry']
-print [x[0] for x in fruits]
 
 '''
 DICTIONARIES
@@ -179,73 +161,18 @@ family.items()      # returns list of tuples:
                     # [('dad', 'Homer'), ('kids', ['bart', 'lisa']), ('mom', 'Marge'), ('size', 2)]
 
 
-print family
-#1. Print the name of the mom.
-print family["mom"]
+'''
+EXERCISE:
+1. Print the name of the mom.
 
-#2. Change the size to 5.
-family["size"] = 5
+2. Change the size to 5.
 
+3. Add 'Maggie' to the list of kids.
 
-#3. Add 'Maggie' to the list of kids.
-family["kids"].append("Maggie")
+4. Fix 'bart' and 'lisa' so that the first letter is capitalized.
 
-
-#4. Fix 'bart' and 'lisa' so that the first letter is capitalized.
-family["kids"][0] = family["kids"][0].capitalize()
-family["kids"][1] = family["kids"][1].capitalize()
-
-# Reset Bart and Lisa to lower for bonus
-family["kids"][0] = family["kids"][0].lower()
-family["kids"][1] = family["kids"][1].lower()
-
-# Bonus: Do this last step using a list comprehension.
-family['kids'] = [x.capitalize() for x in family['kids']]
+Bonus: Do this last step using a list comprehension.
 
 '''
-REQUESTS
-'''
-
-# import module (make its functions available)
-import requests
-
-# use requests to talk to the web
-r = requests.get('http://www.google.com')
-type(r)         # special 'response' object
-r.text          # HTML of web page stored as string
-type(r.text)    # string is encoded as unicode
-r.text[0]       # string can be sliced like any string
 
 
-'''
-APIs
-
-What is an API?
-- Application Programming Interface
-- Structured way to expose specific functionality and data access to users
-- Web APIs usually follow the "REST" standard
-
-How to interact with a REST API:
-- Make a "request" to a specific URL (an "endpoint"), and get the data back in a "response"
-- Most relevant request method for us is GET (other methods: POST, PUT, DELETE)
-- Response is often JSON format
-- Web console is sometimes available (allows you to explore an API)
-
-API Providers: https://apigee.com/providers
-Echo Nest API Console: https://apigee.com/console/echonest
-API key: http://bit.ly/myechonest
-'''
-
-# request data from the Echo Nest API
-r = requests.get('http://developer.echonest.com/api/v4/artist/top_hottt?api_key=KBGUPZPJZS9PHWNIN&format=json')
-r.text          # looks like a dictionary
-type(r.text)    # actually stored as a string
-r.json()        # decodes JSON
-type(r.json())  # JSON can be represented as a dictionary
-top = r.json()  # store that dictionary
-
-# store the artist data
-artists = top['response']['artists']    # list of 15 dictionaries
-
-# create a list of artist names only
-names = [artist['name'] for artist in artists]  # can iterate through list to access dictionaries
