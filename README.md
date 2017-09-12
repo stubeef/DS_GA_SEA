@@ -37,7 +37,8 @@ Bonus content: [Intro to Neural Networks](#nn) |
 
 ## Submission Forms
 
-#### [Exit ticket form](https://docs.google.com/spreadsheets/d/1aMgiJi4D4zQHMqasr_3lYnhYN8V49kDvANYc3gcGN30)
+#### [Exit ticket form]
+(https://docs.google.com/spreadsheets/d/1aMgiJi4D4zQHMqasr_3lYnhYN8V49kDvANYc3gcGN30)
 <!--
 (https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLScYwgieGvmvLDEgqtFX_KKtxFWDqbYYkUBroBzZuqbh2RO_cw/viewform)
 
