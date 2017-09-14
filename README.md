@@ -97,7 +97,7 @@ Before this lesson you should already be able to:
 	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
 		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * Due Sep 18
-	* Review each concept and each line of code in these files of python code: [00_python_practice_1.py](homework/00_python_practice_1.py) and [00_python_practice_1.py](homework/00_python_practice_2.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Sep 20 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.
+	* Review each concept and each line of code in these files of python code: [00_python_practice_1.py](homework/00_python_practice_1.py) and [00_python_practice_2.py](homework/00_python_practice_2.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Sep 20 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.
 	* To turn in homework,  attach files to a personal message in Slack to Jim Byers 
 	* Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
@@ -142,8 +142,8 @@ Before this lesson, you should already be able to:
  
 **Homework:**
 * Due Sep 18
-	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Bronson Shonk
-	* Review each concept and each line of code in these files of python code: [00_python_practice_1.py](homework/00_python_practice_1.py) and [00_python_practice_1.py](homework/00_python_practice_2.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 27 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
+	* To turn in homework,  attach files to a personal message in Slack to Jim Byers
+	* Review each concept and each line of code in these files of python code: [00_python_practice_1.py](homework/00_python_practice_1.py) and [00_python_practice_2.py](homework/00_python_practice_2.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 27 practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
 	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
 	    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
