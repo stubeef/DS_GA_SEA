@@ -1,5 +1,5 @@
 '''
-CLASS: Getting Data from APIs
+Lesson: Getting Data from APIs
 
 What is an API?
 - Application Programming Interface
@@ -24,8 +24,10 @@ movies.head()
 
 # use requests library to interact with a URL
 import requests
-r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
+r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie&apikey=389e4b15')
+#r = requests.get('http://www.omdbapi.com/?i=tt3896198&apikey=389e4b15')
 type(r)
+#r = requests.get('http://www.omdbapi.com/?i=tt3896198&apikey=389e4b15')
 
 # check the status: 200 means success, 4xx means error
 r.status_code
@@ -46,14 +48,15 @@ type(resp_json)
 resp_json['Year']
 
 # what happens if the movie name is not recognized?
-r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
+r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie&apikey=389e4b15')
+
 r.status_code
 r.json()
 
 
 # define a function to return the year
 def get_movie_year(title):
-    r = requests.get('http://www.omdbapi.com/?t=' + title + '&r=json&type=movie')
+    r = requests.get('http://www.omdbapi.com/?t=' + title + '&r=json&type=movie&apikey=389e4b15')
     info = r.json()
     if info['Response'] == 'True':
         return int(info['Year'])
