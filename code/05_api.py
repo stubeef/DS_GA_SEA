@@ -24,7 +24,8 @@ movies.head()
 
 # use requests library to interact with a URL
 import requests
-r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie&apikey=389e4b15')
+r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie&apikey=389e4b15') # This key will eventually expire and a new key will need to be obtained
+
 #r = requests.get('http://www.omdbapi.com/?i=tt3896198&apikey=389e4b15')
 type(r)
 #r = requests.get('http://www.omdbapi.com/?i=tt3896198&apikey=389e4b15')
