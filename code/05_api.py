@@ -18,7 +18,6 @@ import pandas as pd
 path = "../data/"
 movies = pd.read_csv(path + 'imdb_1000.csv')
 
-
 # Look at top 5 rows
 movies.head()
 
