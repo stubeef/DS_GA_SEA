@@ -1,6 +1,6 @@
 ## ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  General Assembly Data Science
 ### Data Science course DS-SEA-07 Repository
-<br><b>Dates: </b> Sep 11 - Nov 20
+<br><b>Dates: </b> Sep 11 - Nov 20 2017
 <br><b>Class times:</b> Mon and Wed 6:30pm - 9:30pm</b>
 <br><b>Location:</b> Seattle, WA
 
