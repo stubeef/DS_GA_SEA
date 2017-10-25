@@ -39,9 +39,13 @@ body = r.json()[1:]
 data = pd.DataFrame(body, columns=header)
 
 # Sort the dataframe decending by the number of people speaking the language
-data.sort_values(by='EST', ascending=False) # sorts the text values of 'EST' since values are strings.  We must change thise to a number to sort what we want
+data.sort_values(by='EST', ascending=True) # sorts the text values of 'EST' since values are strings.  We must change thise to a number to sort what we want
 data.dtypes
 data['EST'] = data['EST'].convert_objects(convert_numeric=True)
+data['EST'] = data['EST'].apply(pd.to_numeric)
+int2
+int(data['EST'].convert_objects(convert_numeric=True))
+int()
 data.sort_values(by='EST', ascending=False) # sorts the numeric values of 'EST' descending
 
 # Now create a new request that brings in the stats for all the us and primary languages
