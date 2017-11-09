@@ -1,7 +1,7 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="year <= 2006.5\nmse = 35247755.102\nsamples = 14\nvalue = 6571.4286"] ;
-1 [label="miles <= 131000.0\nmse = 1232839.5062\nsamples = 9\nvalue = 2722.2222"] ;
+0 [label="year <= 2006.5\nmse = 35247755.102\nsamples = 14\nvalue = 6571.429"] ;
+1 [label="miles <= 131000.0\nmse = 1232839.506\nsamples = 9\nvalue = 2722.222"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="miles <= 93000.0\nmse = 250000.0\nsamples = 2\nvalue = 4500.0"] ;
 1 -> 2 ;
@@ -9,7 +9,7 @@ node [shape=box] ;
 2 -> 3 ;
 4 [label="mse = 0.0\nsamples = 1\nvalue = 4000.0"] ;
 2 -> 4 ;
-5 [label="year <= 2001.0\nmse = 352653.0612\nsamples = 7\nvalue = 2214.2857"] ;
+5 [label="year <= 2001.0\nmse = 352653.061\nsamples = 7\nvalue = 2214.286"] ;
 1 -> 5 ;
 6 [label="mse = 62500.0\nsamples = 2\nvalue = 1550.0"] ;
 5 -> 6 ;
