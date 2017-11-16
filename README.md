@@ -677,7 +677,6 @@ Name | Description
 * Using a multi-user git repository - Exercise
 <!-- * More uses for command line and BASH -->
 * Review of what we have learned over the past 10 weeks
-
 <!--
 * Trends
 	* Data storage, Hadoop and MapReduce
@@ -696,7 +695,6 @@ Name | Description
 		* Data science software as a service (SaaS) engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 		* Machine learning with computer clusters: [Spark](http://spark.apache.org/) with [MLlib](http://spark.apache.org/mllib/)
 -->
-
 * Additional models and variants - Exercise  
 * Data science software as a service (SaaS) engines - ex. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 * Machine learning with computer clusters: [Spark](http://spark.apache.org/) with [MLlib](http://spark.apache.org/mllib/)
