@@ -701,6 +701,7 @@ Name | Description
 	* [databricks hosted managed service on Spark](https://databricks.com/)
 		* [databricks community version (free)](https://community.cloud.databricks.com)
 * Top takeaways and top surprises - Exercise [(form)](https://docs.google.com/forms/d/e/1FAIpQLSc837trmGghoDtx_wFsU6QJuESCp9D4TM3q9VuuSCWeo0WLQA/viewform)
+	* [Responses to the questions from class members](https://docs.google.com/spreadsheets/d/18RJ7Xy7tYgx6JOP4VBEuJUW8K6frqMzv-f_aSjJC58o/edit?usp=sharing)
 * Where to go from here data scientists!
 	* [Data science skills hierarchy](https://docs.google.com/spreadsheets/d/1RAcC44o3crC2ZeCmtrELibV1VyEB5ecnBHZKXXXZI6M)
 * Next steps in your journey
